@@ -1,0 +1,78 @@
+@font-face {
+	font-family: Ubuntu;
+	src : url('./fonts/Ubuntu-R.ttf');
+}
+
+body {
+	font-family: Ubuntu;
+}
+
+li {
+	color: #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	padding: 20px;
+}
+
+body {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+	background: rgb(59,103,158); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(59,103,158,1) 0%, rgba(43,136,217,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+	height: 100vh;
+}
+
+.konten {
+	background: #FFFFFF;
+	padding: 20px;
+	border-top :1px solid #eaeaea;
+	border-right: 1px solid #eaeaea;
+	border-bottom: 4px solid #eaeaea;
+	border-left: 1px solid #eaeaea;
+	border-radius: 5px;
+	box-shadow: 0 0 8px 2px rgba(0,0,0,0.1);
+}
+
+.login {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+background: rgb(207,231,250); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(207,231,250,1) 0%, rgba(99,147,193,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(207,231,250,1) 0%,rgba(99,147,193,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.duaKolom {
+	padding: 10px;
+}
+
+.menuKiri {
+	background: #000000; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-right: 2px solid white;
+}
+
+.carousel-inner > .item > img {
+	max-height: 376px;
+	width: 740px;
+}
+
+
+.footer {
+	color: #FFFFFF;
+	background-color: gray;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+@media screen and (min-width: 1330px){
+	.login{
+	margin-top: 15%;
+	margin-left:32%;
+	}
+}
