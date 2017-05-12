@@ -53,7 +53,7 @@ if (!isset($user)) {
 							</tr> <?php } ?>
 						</table>
 						</div>
-						<button class="btn btn-default"><a href="http://localhost/ektp/admin/usertambah.php">Tambah Akun</a></button>
+						<button class="btn btn-default"><a href="<?php $_SERVER['DOCUMENT_ROOT']?>/php/ektp/admin/usertambah.php">Tambah Akun</a></button>
 					</div>
 				</div>
 			</div>
